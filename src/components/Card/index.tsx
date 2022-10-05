@@ -11,7 +11,7 @@ export function Card({header, body}: PropsCard) {
       <header className="bg-green-500 rounded-tl-md rounded-tr-md px-8 py-4">
         {header()}
       </header>
-      <div className="px-8 py-4 h-auto">
+      <div className="px-8 py-8 h-auto">
         {body()}
       </div>
     </section>
